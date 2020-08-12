@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
         circular:true,
         scroll:{
             items:1,
-            duration:700,
+            duration:600,
             pauseOnHover:true,
         },
         auto:true,
