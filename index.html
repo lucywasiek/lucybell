@@ -17,6 +17,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/menu.js" type="text/javascript"></script>
 <script src="js/caroufredsel.js" type="text/javascript"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -27,6 +29,7 @@
         <header>
             <div class="container">
                 <div class="row">
+                    
                     <a href="" class="logo"><img src="image/LW3.png"></a> 
                     <nav>
                         <ul>
@@ -37,6 +40,7 @@
                         </ul>
                     </nav>
                 </div>
+                
             </div>
         </header>
 
@@ -46,11 +50,25 @@
             <ul class="slider-carousel" id="slider-carousel">
                 <li class="img1">
                     <h2>My name is Lucy Wasiek and <br> i'm a web developper student</h2>
-                    <a href="https://fr.linkedin.com/in/lucie-lefebvre-2b6904193?trk=people-guest_people_search-card" class="btn btn-half" target="_blank">linkedin</a>
+                    <a href="https://fr.linkedin.com/in/lucie-lefebvre-2b6904193?trk=people-guest_people_search-card" class="btn btn-half" target="_blank"><span>Linkedin</span></a>
                 </li>
                 <li class="img2">
-                    <h2>I'm looking for the internship of my dreams</h2>
-                    <a href="" class="btn btn-full">what am i looking for ?</a>
+                    <h2>I'm currently looking for an intership</h2>
+                    <div class="box">
+                        <a class="button" href="#popup1">what am i looking for ?</a>
+                    </div>
+                    
+                    <div id="popup1" class="overlay">
+                        <div class="popup">
+                            <h2>Here i am</h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">
+                                Thank to pop me out of that button, but now i'm done so you can close this window.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </li>
                 <li class="img3">
                     <h2>You can find my work here below:</h2>
